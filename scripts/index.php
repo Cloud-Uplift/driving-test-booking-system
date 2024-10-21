@@ -1,6 +1,6 @@
 <?php
 // Initialize cURL session for fetching the login page (to get CSRF token)
-$login_url = 'https://www.access.service.gov.uk/login/signin/creds';
+$login_url = 'https://en.wikipedia.org/wiki/Gislebertus';
 $ch = curl_init();
 
 // Set the URL for the GET request (fetch the login page)
