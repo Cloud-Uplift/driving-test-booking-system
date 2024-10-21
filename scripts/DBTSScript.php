@@ -3,7 +3,7 @@
 $ch = curl_init();
 
 // Set the URL for the POST request
-curl_setopt($ch, CURLOPT_URL, 'https://repost.aws/knowledge-center/ec2-linux-al2023-find-log-files');
+curl_setopt($ch, CURLOPT_URL, 'https://books.toscrape.com/');
 
 // Ensure the response is returned as a string instead of outputting it directly
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
