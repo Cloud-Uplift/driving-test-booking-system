@@ -3,7 +3,7 @@
 $ch = curl_init();
 
 // Set the URL for the POST request
-curl_setopt($ch, CURLOPT_URL, 'https://www.access.service.gov.uk/login/signin/creds');
+curl_setopt($ch, CURLOPT_URL, 'https://repost.aws/knowledge-center/ec2-linux-al2023-find-log-files');
 
 // Ensure the response is returned as a string instead of outputting it directly
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
