@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Web Scraping</h1>
+
 <?php
 // Initialize cURL session
 $ch = curl_init();
 
 // Set the URL for the POST request
-curl_setopt($ch, CURLOPT_URL, 'https://books.toscrape.com/');
+curl_setopt($ch, CURLOPT_URL, 'https://www.access.service.gov.uk/login/signin/creds');
 
 // Ensure the response is returned as a string instead of outputting it directly
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -36,3 +42,5 @@ if(curl_errno($ch)) {
 // Close the cURL session
 curl_close($ch);
 ?>
+</body>
+</html>
