@@ -35,3 +35,4 @@ if(curl_errno($ch)) {
 
 // Close the cURL session
 curl_close($ch);
+?>
